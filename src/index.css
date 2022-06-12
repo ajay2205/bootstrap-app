@@ -11,3 +11,40 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.header_img {
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  height: 90%;
+}
+
+.header_text{
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+.header_button{
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: orange;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  right: 70%;
+  border-radius: 5%;
+}
+
+.navbar_img{
+  width: 40px;
+}
