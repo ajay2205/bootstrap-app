@@ -17,7 +17,7 @@ code {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
+  position: relative;
   height: 90%;
 }
 
@@ -47,4 +47,6 @@ code {
 
 .navbar_img{
   width: 40px;
+  border-radius: 50%;
+  padding: 2px;
 }
